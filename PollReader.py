@@ -70,6 +70,8 @@ class PollReader():
 
 
     def highest_polling_candidate(self):
+        # highest poll
+     
         """
         This method should iterate through the result columns and return
         the name of the candidate with the highest single polling percentage
@@ -92,6 +94,7 @@ class PollReader():
 
 
     def likely_voter_polling_average(self):
+
             
         """
         Calculate the average polling percentage for each candidate among likely voters.
