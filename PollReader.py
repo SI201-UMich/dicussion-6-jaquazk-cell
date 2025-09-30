@@ -44,6 +44,8 @@ class PollReader():
         }
 
     def build_data_dict(self):
+        # build data dict
+    
         """
         Reads all of the raw data from the CSV and builds a dictionary where
         each key is the name of a column in the CSV, and each value is a list
