@@ -100,6 +100,7 @@ class PollReader():
             tuple: A tuple containing the average polling percentages for Harris and Trump
                    among likely voters, in that order.
         """
+        # Polling averages for likely voters
         harris_sum = 0.0
         trump_sum = 0.0
         count = 0
@@ -186,7 +187,7 @@ def main():
     harris_change, trump_change = poll_reader.polling_history_change()
     print(f"Polling History Change:")
     print(f"  Harris: {harris_change:+.2%}")
-    print(f"  Trump: {trump_change:+.2%}")
+    print(f"  Trump: {trump_change:+.2%}") 
 
 
 
